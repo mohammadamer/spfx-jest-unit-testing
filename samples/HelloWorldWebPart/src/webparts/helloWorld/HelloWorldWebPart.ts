@@ -9,8 +9,8 @@ import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
 import * as strings from 'HelloWorldWebPartStrings';
-import HelloWorld from './components/HelloWorld';
-import { IHelloWorldProps } from './components/IHelloWorldProps';
+import HelloWorld from './components/HelloWorld/HelloWorld';
+import { IHelloWorldProps } from './components/HelloWorld/IHelloWorldProps';
 
 export interface IHelloWorldWebPartProps {
   description: string;
