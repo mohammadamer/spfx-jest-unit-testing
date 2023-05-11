@@ -6,9 +6,11 @@
   "scripts": {
     "build": "gulp bundle",
     "clean": "gulp clean",
-    "test": "gulp test"
+    "test": "jest --runInBand"
   },
   "dependencies": {
+    "@fluentui/react": "^8.109.2",
+    "@microsoft/decorators": "^1.17.1",
     "@microsoft/rush-stack-compiler-4.5": "^0.5.0",
     "@microsoft/sp-core-library": "1.14.0",
     "@microsoft/sp-lodash-subset": "1.14.0",
@@ -16,8 +18,8 @@
     "@microsoft/sp-property-pane": "1.14.0",
     "@microsoft/sp-webpart-base": "1.14.0",
     "@pnp/graph": "^3.14.0",
-    "@pnp/sp": "^3.14.0",
     "@pnp/logging": "^3.14.0",
+    "@pnp/sp": "^3.14.0",
     "office-ui-fabric-react": "7.174.1",
     "react": "16.13.1",
     "react-dom": "16.13.1"
@@ -26,10 +28,17 @@
     "@microsoft/sp-build-web": "1.14.0",
     "@microsoft/sp-module-interfaces": "1.14.0",
     "@microsoft/sp-tslint-rules": "1.14.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^12.1.5",
+    "@types/jest": "^25.2.1",
     "@types/react": "16.9.51",
     "@types/react-dom": "16.9.8",
     "@types/webpack-env": "1.13.1",
     "ajv": "~5.2.2",
-    "gulp": "~4.0.2"
+    "gulp": "~4.0.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.4.0",
+    "jest-junit": "^16.0.0",
+    "ts-jest": "^25.4.0"
   }
 }
