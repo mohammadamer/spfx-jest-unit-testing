@@ -9,7 +9,7 @@ export class Log {
     const dateStr = d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds() + '.' + d.getMilliseconds();
 
     if (window.location.search.indexOf("debug") >= 0 || always) {
-      //console.log(`%c${strings.LogAppName} >> ${dateStr} >> ${s}`, Log.logStyle);
+      console.log(`%c${strings.LogAppName} >> ${dateStr} >> ${s}`, Log.logStyle);
     }
   }
 }
