@@ -2,6 +2,7 @@ import * as React from 'react';
 import styles from '../HelloWorld.module.scss';
 import { IHelloWorldProps } from './IHelloWorldProps';
 import { escape } from '@microsoft/sp-lodash-subset';
+import CustomActionButton from '../Button/CustomActionButton';
 
 export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
   public render(): React.ReactElement<IHelloWorldProps> {
@@ -37,6 +38,7 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
             <li><a href="https://aka.ms/m365pnp" target="_blank">Microsoft 365 Developer Community</a></li>
           </ul>
         </div>
+        <CustomActionButton />
       </section>
     );
   }

@@ -6,6 +6,7 @@ declare interface IHelloWorldWebPartStrings {
   AppLocalEnvironmentTeams: string;
   AppSharePointEnvironment: string;
   AppTeamsTabEnvironment: string;
+  LogAppName: string;
 }
 
 declare module 'HelloWorldWebPartStrings' {
