@@ -13,7 +13,8 @@ describe("Action button functionality", () => {
     });
 
     it('Should display Action button in the beginning', () => {
-        const actionButtonElement = "Action Button";//screen.getByText(strings.GiveFeedbackButtonTitle);
+        console.log(screen.debug());
+        const actionButtonElement = screen.queryByText(/Action Button/);
         expect(actionButtonElement).toBeInTheDocument();
     });
 });
