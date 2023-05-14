@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="0" failures="0" errors="0" time="23.096">
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="23.827">
+  <testsuite name="Action button functionality" errors="0" failures="0" skipped="0" timestamp="2023-05-12T14:51:47" time="16.496" tests="1">
+    <testcase classname="Action button functionality Should display Action button in the beginning" name="Action button functionality Should display Action button in the beginning" time="0.147">
+    </testcase>
+  </testsuite>
 </testsuites>
